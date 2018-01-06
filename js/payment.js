@@ -1,0 +1,114 @@
+$(document).ready(function(){
+    $(".list-payment .content").hide();
+  $("#lp-1 label").click(function(){
+    $(".list-payment#lp-1 .content").slideDown();
+    $(".list-payment#lp-6 .content").slideUp();
+    $(".list-payment#lp-8 .content").slideUp();
+    //$(".list-payment#lp-7 .content").slideUp();
+    $(".list-payment#lp-2 .content").slideUp();
+    $(".list-payment#lp-3 .content").slideUp();
+    $(".list-payment#lp-4 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+    $("#lp-1").addClass("active");
+    $("#lp-2").removeClass("active");
+    $("#lp-3").removeClass("active");
+    $("#lp-4").removeClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-6").removeClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-8").removeClass("active");
+  });
+  $("#lp-2 label").click(function(){
+    $("#lp-2").addClass("active");
+    $("#lp-1").removeClass("active");
+    $("#lp-3").removeClass("active");
+    $("#lp-4").removeClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-6").removeClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-8").removeClass("active");
+    $(".list-payment#lp-2 .content").slideDown();
+    $(".list-payment#lp-6 .content").slideUp();
+    $(".list-payment#lp-8 .content").slideUp();
+    //$(".list-payment#lp-7 .content").slideUp();
+    $(".list-payment#lp-1 .content").slideUp();
+    $(".list-payment#lp-3 .content").slideUp();
+    $(".list-payment#lp-4 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+  });
+  $("#lp-3 label").click(function(){
+    $("#lp-3").addClass("active");
+    $("#lp-2").removeClass("active");
+    $("#lp-1").removeClass("active");
+    $("#lp-4").removeClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-6").removeClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-8").removeClass("active");
+    $(".list-payment#lp-3 .content").slideDown();
+    $(".list-payment#lp-6 .content").slideUp();
+    //$(".list-payment#lp-7 .content").slideUp();
+    $(".list-payment#lp-8 .content").slideUp();
+    $(".list-payment#lp-1 .content").slideUp();
+    $(".list-payment#lp-2 .content").slideUp();
+    $(".list-payment#lp-4 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+  });
+  $("#lp-4 label").click(function(){
+    $("#lp-4").addClass("active");
+    $("#lp-2").removeClass("active");
+    $("#lp-3").removeClass("active");
+    $("#lp-1").removeClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-6").removeClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-8").removeClass("active");
+    $(".list-payment#lp-4 .content").slideDown();
+    $(".list-payment#lp-6 .content").slideUp();
+    $(".list-payment#lp-8 .content").slideUp();
+    //$(".list-payment#lp-7 .content").slideUp();
+    $(".list-payment#lp-1 .content").slideUp();
+    $(".list-payment#lp-2 .content").slideUp();
+    $(".list-payment#lp-3 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+  });
+
+
+   $("#lp-6 label").click(function(){
+    $("#lp-6").addClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-8").removeClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-2").removeClass("active");
+    $("#lp-3").removeClass("active");
+    $("#lp-4").removeClass("active");
+    $("#lp-1").removeClass("active");
+    $(".list-payment#lp-6 .content").slideDown();
+    //$(".list-payment#lp-7 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+    $(".list-payment#lp-8 .content").slideUp();
+    $(".list-payment#lp-1 .content").slideUp();
+    $(".list-payment#lp-2 .content").slideUp();
+    $(".list-payment#lp-4 .content").slideUp();
+    $(".list-payment#lp-3 .content").slideUp();
+  });
+
+  $("#lp-8 label").click(function(){
+    $("#lp-8").addClass("active");
+    //$("#lp-7").removeClass("active");
+    $("#lp-6").removeClass("active");
+    //$("#lp-5").removeClass("active");
+    $("#lp-2").removeClass("active");
+    $("#lp-3").removeClass("active");
+    $("#lp-4").removeClass("active");
+    $("#lp-1").removeClass("active");
+    $(".list-payment#lp-8 .content").slideDown();
+    //$(".list-payment#lp-7 .content").slideUp();
+    //$(".list-payment#lp-5 .content").slideUp();
+    $(".list-payment#lp-6 .content").slideUp();
+    $(".list-payment#lp-1 .content").slideUp();
+    $(".list-payment#lp-2 .content").slideUp();
+    $(".list-payment#lp-4 .content").slideUp();
+    $(".list-payment#lp-3 .content").slideUp();
+  });
+});
